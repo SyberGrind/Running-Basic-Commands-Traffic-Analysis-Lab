@@ -148,7 +148,7 @@ This repository documents a comprehensive hands-on lab focused on cloud infrastr
 >
 <br>
 
-**Step 21: Inputting Password
+**Step 21: Inputting Password.**
 <br>
  <img width="1366" height="768" alt="21 Inputting Password in Remote Desktop to log in WindowsVM" src="https://github.com/user-attachments/assets/2a6c50ba-1c10-43bf-9ced-09d28f68a276" />
 >
@@ -169,133 +169,132 @@ In this 19 steps phase , I utilized the Windows PowerShell environment to perfor
 >
 <br>
 
-**Step 23: Accessing the Windows PowerShell environment on the `WindowsVM` to begin system-level administration.
+**Step 23: Accessing the Windows PowerShell environment on the `WindowsVM` to begin system-level administration.**
 <br>
 <img width="1366" height="768" alt="23 Navigating to Windows Powershell on WindowsVM" src="https://github.com/user-attachments/assets/71709c3c-107b-4921-826e-d818b6767ae9" />
 >
 <br>
 <br>
 
-**Step 24: Verifying that the PowerShell environment has initialized correctly and is ready for administrative input.
+**Step 24: Verifying that the PowerShell environment has initialized correctly and is ready for administrative input.**
 <br>
 <img width="1366" height="768" alt="24 Successful openning of Windows Powershell on WindowsVM" src="https://github.com/user-attachments/assets/3ff6e7e8-e880-405a-9fc4-f380cc353acb" />
 >
 <br>
 <br>
 
-**Step 25: Executing the `ipconfig` command to retrieve the current IPv4 address, subnet mask, and default gateway settings for the virtual machine.
+**Step 25: Executing the `ipconfig` command to retrieve the current IPv4 address, subnet mask, and default gateway settings for the virtual machine.**
 <br>
 <img width="1366" height="768" alt="25 Prompting ipconfig command on Windows Powershell in WindowsVM" src="https://github.com/user-attachments/assets/c9035730-4c07-47b1-96bb-946ced90bf42" />
 >
 <br>
 <br>
 
-**Step 26: Reviewing the network configuration report to confirm the virtual machine has a valid IP assignment.
+**Step 26: Reviewing the network configuration report to confirm the virtual machine has a valid IP assignment.**
 <br>
 <img width="1366" height="768" alt="26  Successful ipconfig command   Checking Report-Powershell WindowsVM" src="https://github.com/user-attachments/assets/0b6922a8-9c5e-48a2-aaee-f86d274f5628" />
 >
 <br>
 <br>
 
-**Step 27: Executing `ipconfig /all` to access comprehensive network configuration, including DNS, DHCP, and physical (MAC) address details.
+**Step 27: Executing `ipconfig /all` to access comprehensive network configuration, including DNS, DHCP, and physical (MAC) address details.**
 <br>
 <img width="1366" height="768" alt="27 Prompting ipconfig all command on Windows Powershell in WindowsVM" src="https://github.com/user-attachments/assets/ea03dbcc-6a17-4186-9439-0d4b094f733d" />
 >
 <br>
 
-**Step 28: Reviewing the detailed PowerShell report to confirm network adapter status and DNS server configuration.
+**Step 28: Reviewing the detailed PowerShell report to confirm network adapter status and DNS server configuration.**
 <br>
 <img width="1366" height="768" alt="28 Successful ipconfig all command   Checking Report-Powershell WindowsVM" src="https://github.com/user-attachments/assets/af18c7ee-4239-44c3-9abf-be86dee4dded" />
 >
 <br>
 <br>
 
-**Step 29: Executing a `ping` command targeting Google’s public IP address to test end-to-end network reachability and latency.
+**Step 29: Executing a `ping` command targeting Google’s public IP address to test end-to-end network reachability and latency.**
 <br>
 <img width="1366" height="768" alt="29 Prompting ping command on Windows Powershell in WindowsVM - pinging using Google IP Address" src="https://github.com/user-attachments/assets/c55b5f89-6ee3-4b85-8eb9-05eafff76940" />
 >
 <br>
 <br>
 
-**Step 30: Confirming successful ICMP echo requests and replies, indicating active connectivity to the destination IP.
+**Step 30: Confirming successful ICMP echo requests and replies, indicating active connectivity to the destination IP.**
 <br>
 <img width="1366" height="768" alt="30 Succssful ping command on Windows Powershell in WindowsVM of Google" src="https://github.com/user-attachments/assets/717f509c-db25-4829-8b8a-b39137cf23f7" />
 >
 <br>
 <br>
 
-**Step 31: Executing `ping` using a domain name (`google.com`) to verify that the system can resolve hostnames to IP addresses.
+**Step 31: Executing `ping` using a domain name (`google.com`) to verify that the system can resolve hostnames to IP addresses.**
 <br>
 <img width="1366" height="768" alt="31 Prompting to ping Google by name on Windows Powershell in WindowsVM" src="https://github.com/user-attachments/assets/d93fea12-e04f-45bf-bf35-ec2021eb2486" />
 >
 <br>
 <br>
 
-**Step 32: Confirming the system successfully resolved the hostname and established connectivity via ICMP.
+**Step 32: Confirming the system successfully resolved the hostname and established connectivity via ICMP.**
 <br>
 <img width="1366" height="768" alt="32 Successful ping of Google by name on Windows Powershell in WindowsVM" src="https://github.com/user-attachments/assets/99ee9285-b92a-4830-8b32-b383816a5fa6" />
 >
 <br>
 <br>
 
-**Step 33: Executing the `hostname` command to identify the unique system name assigned to the virtual machine.
+**Step 33: Executing the `hostname` command to identify the unique system name assigned to the virtual machine.**
 <br>
 <img width="1366" height="768" alt="33 Prompting hostname command on Windows Powershell in WindowsVM" src="https://github.com/user-attachments/assets/5b0359bf-71cd-4352-bfdb-72aafaa595d9" />
 >
 <br>
 <br>
 
-**Step 34: Verifying the system identity within the PowerShell console.
+**Step 34: Verifying the system identity within the PowerShell console.**
 <br>
 <img width="1366" height="768" alt="34 Hostname confirmation Windows Powershell on WindowsVM" src="https://github.com/user-attachments/assets/af0fdac5-c066-46a7-b7cc-68293e7960f4" />
 >
 <br>
 <br>
 
-**Step 35: Executing `tracert` to map the network path and hop count from the `WindowsVM` to Google.com.
+**Step 35: Executing `tracert` to map the network path and hop count from the `WindowsVM` to Google.com.**
 <br>
 <img width="1366" height="768" alt="35 Prompting tracert command for google on Windows Powershell in WindowsVM" src="https://github.com/user-attachments/assets/f1c6df89-ba5e-4d05-9103-7f92ac42c736" />
 >
 <br>
 <br>
 
-**Step 36: Successful Google hops check using `tracert`**
-Reviewing the `tracert` results to confirm the path taken through the network to the destination.
+**Step 36: Reviewing the `tracert` hops result to confirm the path taken through the network to the destination.**
 <br>
 <img width="1366" height="768" alt="36 Successful Google hops check using tracert command on Windows Powershell in WindowsVM" src="https://github.com/user-attachments/assets/1557a8ad-abe1-480c-8328-c1947f622fa3" />
 >
 <br>
 <br>
 
-**Step 37: Executing `nslookup` for the FIFA website to verify DNS resolution for a specific external domain.
+**Step 37: Executing `nslookup` for the FIFA website to verify DNS resolution for a specific external domain.**
 <br>
 <img width="1366" height="768" alt="37 Prompting nslookup command of FIFA website on Windows Powershell on WindowsVM" src="https://github.com/user-attachments/assets/6160658d-9f23-4806-b60d-f352d5bca835" />
 >
 <br>
 <br>
 
-**Step 38: Reviewing the DNS query results to confirm the system correctly retrieved the IP address for the target domain.
+**Step 38: Reviewing the DNS query results to confirm the system correctly retrieved the IP address for the target domain.**
 <br>
 <img width="1366" height="768" alt="38 Successful nslookup command of FIFA - Windows Powershell on WindowsVM" src="https://github.com/user-attachments/assets/247e55fc-cd51-4b6f-a6ec-2296cc8689a3" />
 >
 <br>
 <br>
 
-**Step 39: Executing `netstat` to view active TCP/UDP connections and listening ports on the virtual machine.
+**Step 39: Executing `netstat` to view active TCP/UDP connections and listening ports on the virtual machine.**
 <br>
 <img width="1366" height="768" alt="39 Prompting netstat command on Windows Powershell in WindowsVM" src="https://github.com/user-attachments/assets/c2928063-24e4-43b1-b6d6-f10082bfcfbb" />
 >
 <br>
 <br>
 
-**Step 40: Analyzing the active connection table to identify current network traffic.
+**Step 40: Analyzing the active connection table to identify current network traffic.**
 <br>
 <img width="1366" height="768" alt="40 Successful netstat command   Results on Windows Powershell in WindowsVM" src="https://github.com/user-attachments/assets/16ea9ada-5c74-42d1-9cb9-76ca5e748cdc" />
 >
 <br>
 <br>
 
-**Step 41: Executing `netstat -ano` to display active connections with the associated Process ID (PID) for further system analysis.
+**Step 41: Executing `netstat -ano` to display active connections with the associated Process ID (PID) for further system analysis.**
 <br>
 <img width="1366" height="768" alt="41 Successful Prompting netstat -ano command on Windows Powershell in WindowsVM" src="https://github.com/user-attachments/assets/220c1498-c034-408f-8684-344f9294d386" />
 >
@@ -317,200 +316,198 @@ Utilizing Microsoft Edge to locate and download the Wireshark distribution for n
 <br>
 <br>
 
-**Step 43: Initiating the download of the Wireshark installer to prepare the virtual environment for packet capture and inspection.
+**Step 43: Initiating the download of the Wireshark installer to prepare the virtual environment for packet capture and inspection.**
 <br>
 <img width="1366" height="768" alt="43 Download of Wireshark on WindowsVM" src="https://github.com/user-attachments/assets/53ab0152-2db1-4a5f-bea0-cbe793b106a1" />
 >
 <br>
 <br>
 
-**Step 44: Configuring the Wireshark setup wizard on the WindowsVM, ensuring all necessary components are selected for installation.
+**Step 44: Configuring the Wireshark setup wizard on the WindowsVM, ensuring all necessary components are selected for installation.**
 <br>
 <img width="1366" height="768" alt="44 Setting Up Wireshark on WindowsVM" src="https://github.com/user-attachments/assets/824a7536-da48-424e-8c5d-ff414cb48510" />
 >
 <br>
 
-**Step 45: Completing the installation process for Wireshark to enable deep-packet inspection capabilities.
+**Step 45: Completing the installation process for Wireshark to enable deep-packet inspection capabilities.**
 <br>
 <img width="1366" height="768" alt="45 Installing Wireshark on WindowsVM" src="https://github.com/user-attachments/assets/652e95bb-2f71-4610-b75b-24b9eaf5f998" />
 >
 <br>
 <br>
 
-**Step 46: Launching the Wireshark application and verifying the primary network interface is initialized for monitoring.
+**Step 46: Launching the Wireshark application and verifying the primary network interface is initialized for monitoring.**
 <br>
 <img width="1366" height="768" alt="46 Openning Wireshark on WindowsVM" src="https://github.com/user-attachments/assets/7ffd8da7-b68a-4ffd-9a65-6df4439bab2e" />
 >
 <br>
 <br>
 
-**Step 47: Selecting the primary Ethernet network adapter to capture and inspect all raw traffic traversing the WindowsVM.
+**Step 47: Selecting the primary Ethernet network adapter to capture and inspect all raw traffic traversing the WindowsVM.**
 <br>
 <img width="1366" height="768" alt="47 Selecting Ethernet for packet capture on Wireshark - WindowsVM" src="https://github.com/user-attachments/assets/17df5efc-3ab7-4aa8-bb28-f5bb07c12475" />
 >
 <br>
 <br>
 
-**Step 48: Reviewing live network traffic, identifying background broadcasts and standard system protocols active on the virtual network.
+**Step 48: Reviewing live network traffic, identifying background broadcasts and standard system protocols active on the virtual network.**
 <br>
 <img width="1366" height="768" alt="48 General Network packets   traffic inspection on Wireshark - WindowsVM" src="https://github.com/user-attachments/assets/7b5349b6-e8f1-46b2-a571-5a8c5a3c655c" />
 >
 <br>
 
-**Step 49: Applying an `icmp` display filter in Wireshark to isolate Echo Request and Echo Reply packets for connectivity verification.
+**Step 49: Applying an `icmp` display filter in Wireshark to isolate Echo Request and Echo Reply packets for connectivity verification.**
 <br>
 <img width="1366" height="768" alt="49 Prompting to filter for ICMP traffic on Wireshark - WindowsVM" src="https://github.com/user-attachments/assets/a94bf28a-b859-4c76-95f9-20a1c3a1886a" />
 >
 <br>
 <br>
 
-**Step 50: Clearing the Wireshark capture buffer to focus exclusively on the specific ICMP traffic patterns.
+**Step 50: Clearing the Wireshark capture buffer to focus exclusively on the specific ICMP traffic patterns.**
 <br>
 <img width="1366" height="768" alt="50 Cleared traffic on Wireshark for ICMP results - WindowsVM" src="https://github.com/user-attachments/assets/13069214-7ac3-479e-8bc2-dd0114c40197" />
 >
 <br>
 <br>
 
-**Step 51: Opening Windows PowerShell for ICMP traffic filter**
-Accessing the Windows PowerShell terminal on WindowsVM to prepare for active connectivity testing.
+**Step 51: Accessing the Windows PowerShell terminal on WindowsVM to prepare for traffic flitering - active connectivity testing.**
 <img width="1366" height="768" alt="51 Openning Windows Powershell on WindowsVM for ICMP traffic filter" src="https://github.com/user-attachments/assets/6d15ae21-fad8-4074-ab7c-e32c63b4aa60" />
 >
 <br>
 <br>
 
-**Step 52: Arranging the workspace with PowerShell and Wireshark side-by-side to correlate command execution with live network packet capture.
+**Step 52: Arranging the workspace with PowerShell and Wireshark side-by-side to correlate command execution with live network packet capture.**
 <br>
 <img width="1366" height="768" alt="52 Powershell   Wireshark open on WindowsVm for ICMP traffic filter" src="https://github.com/user-attachments/assets/18af44ea-809f-4309-814f-f164ff5a8951" />
 >
 <br>
 <br>
 
-**Step 53: Identifying the Linux-UbuntuVM private IP address (10.0.0.5) to serve as the destination target for connectivity testing.
+**Step 53: Identifying the Linux-UbuntuVM private IP address (10.0.0.5) to serve as the destination target for connectivity testing.**
 <br>
 <img width="1366" height="768" alt="53 Obtaining Linux-UbuntuVM Private IP Address for ICMP traffic filter - WindowsVM" src="https://github.com/user-attachments/assets/d39e82fb-9692-447d-bb07-89a8d33c7f81" />
 >
 <br>
 <br>
 
-**Step 54: Executing the `ping` command to initiate network communication with the remote Linux instance.
+**Step 54: Executing the `ping` command to initiate network communication with the remote Linux instance.**
 <br>
 <img width="1366" height="768" alt="54 Promtp to ping Linux-UbuntuVM for ICMP traffic filter - WindowsVM" src="https://github.com/user-attachments/assets/0b4693fd-b713-4344-b737-fe896d5c1916" />
 >
 <br>
 <br>
 
-**Step 55: Inspecting captured ICMP packets in Wireshark to verify successful packet transmission and round-trip response.
+**Step 55: Inspecting captured ICMP packets in Wireshark to verify successful packet transmission and round-trip response.**
 <br>
 <img width="1366" height="768" alt="55 Analysing ICMP traffic on Powershell   Wireshark - WindowsVM" src="https://github.com/user-attachments/assets/bf1caf95-3678-4655-859b-8f45ae30eaa3" />
 >
 <br>
 <br>
 
-**Step 56: Executing `ping 10.0.0.5 -t` perpetual ping to create a continuous, nonstop stream of ICMP traffic for sustained observation in Wireshark.
+**Step 56: Executing `ping 10.0.0.5 -t` perpetual ping to create a continuous, nonstop stream of ICMP traffic for sustained observation in Wireshark.**
 <br>
 <img width="1366" height="768" alt="56 Prompt of perpetual nonstop ping of Linux-UbuntuVM for ICMP traffic filter Powershell   Wireshark - WindowsVM" src="https://github.com/user-attachments/assets/96dc8830-1ac5-44cc-b975-2c8db07a5c27" />
 >
 <br>
 <br>
 
-**Step 57: Confirming the continuous connectivity stream is active and being logged in the Wireshark packet capture.
+**Step 57: Confirming the continuous connectivity stream is active and being logged in the Wireshark packet capture.**
 <br>
 <img width="1366" height="768" alt="57 Successful prompt of perpetual nonstop ping of Linux-UbuntuVM for ICMP traffic filter Powershell   Wireshark - WindowsVM" src="https://github.com/user-attachments/assets/9e530f1f-41d0-4179-88ee-554f094d1b94" />
 >
 <br>
 
-**Step 58: Navigating to the Network Security Group settings to define inbound firewall rules for the Linux-UbuntuVM.
+**Step 58: Navigating to the Network Security Group settings to define inbound firewall rules for the Linux-UbuntuVM.**
 <br>
 <img width="1366" height="768" alt="58 Creating port for Linux-UbuntuVM" src="https://github.com/user-attachments/assets/9f206365-bf17-4abb-a5a2-e49377a9e2fb" />
 >
 <br>
 <br>
 
-**Step 59: Modifying the inbound security rule to explicitly "Deny" ICMP traffic, testing the firewall's ability to block the perpetual ping stream.
+**Step 59: Modifying the inbound security rule to explicitly "Deny" ICMP traffic, testing the firewall's ability to block the perpetual ping stream.**
 <br>
 <img width="1366" height="768" alt="59 Changing of Inbound Security Rules to block perptual nonstop ping of Linux-UbuntuVM" src="https://github.com/user-attachments/assets/d8c3e20a-3d3e-4c79-9799-919291eacf48" />
 >
 <br>
 <br>
 
-**Step 60: Verifying the updated network security (Inbound Security Rule) configuration is saved and effectively applied to the Linux-UbuntuVM.
+**Step 60: Verifying the updated network security (Inbound Security Rule) configuration is saved and effectively applied to the Linux-UbuntuVM.**
 <br>
 <img width="1366" height="768" alt="60 Successful Change of Inbound Security Rules to block perptual nonstop ping of Linux-UbuntuVM" src="https://github.com/user-attachments/assets/15cfa7bf-c10a-46b8-bae3-8253cae36567" />
 >
 <br>
 <br>
 
-**Step 61: Correlating the PowerShell "Request Timed Out" errors with the block of ICMP packets captured in Wireshark.
+**Step 61: Correlating the PowerShell "Request Timed Out" errors with the block of ICMP packets captured in Wireshark.**
 <br>
 <img width="1366" height="768" alt="61 Analysing block of perptual nonstop ping of Linux-UbuntuVM on Powershell   Wireshark - WindowsVM" src="https://github.com/user-attachments/assets/66451c51-8174-4e7e-b2ba-a02455fc9d43" />
 >
 <br>
 <br>
 
-**Step 62: Analyzing block of perpetual nonstop ping on Wireshark**
-Deep-diving into Wireshark logs to confirm that ICMP traffic is successfully dropped by the configured firewall rule.
+**Step 62: Deep-diving into Wireshark logs to confirm that ICMP traffic is successfully dropped by the configured firewall rule.**
 <img width="1366" height="768" alt="62 Analysing block of perptual nonstop ping of Linux-UbuntuVM on Wireshark - WindowsVM" src="https://github.com/user-attachments/assets/e23a2234-9570-4a19-8662-e839103505da" />
 >
 <br>
 <br>
 
-**Step 63: Preparing the SSH command structure (`ssh [user]@[ip]`) to initiate a secure management session.
+**Step 63: Preparing the SSH command structure (`ssh [user]@[ip]`) to initiate a secure management session.**
 <br>
 <img width="1366" height="768" alt="63 Prompt of shh traffic on Wireshark on WindowsVM" src="https://github.com/user-attachments/assets/f72bfc86-fb16-4604-b9eb-b5960d0b4fab" />
 >
 <br>
 <br>
 
-**Step 64: Configuring the environment to capture the SSH handshake and encryption negotiation phases in Wireshark.
+**Step 64: Configuring the environment to capture the SSH handshake and encryption negotiation phases in Wireshark.**
 <br>
 <img width="1366" height="768" alt="64 Prompt of shh traffic on Powershell   Wireshark on WindowsVM" src="https://github.com/user-attachments/assets/b5c5dc0a-baaf-470d-bac9-d3fd9e11e9d8" />
 >
 <br>
 <br>
 
-**Step 65: Executing the `ssh` command in PowerShell to attempt a remote authenticated login to the Linux-UbuntuVM.
+**Step 65: Executing the `ssh` command in PowerShell to attempt a remote authenticated login to the Linux-UbuntuVM.**
 <br>
 <img width="1366" height="768" alt="65 Prompt to log in Linux-UbuntuVM using Powershell via ssh on WindowsVM" src="https://github.com/user-attachments/assets/61c3e4f7-6bfe-43ee-8daa-ab819b59bd2c" />
 >
 <br>
 <br>
 
-**Step 66: Inspecting the captured SSH packets to identify the TCP handshake and secure protocol negotiation.
+**Step 66: Inspecting the captured SSH packets to identify the TCP handshake and secure protocol negotiation.**
 <br>
 <img width="1366" height="768" alt="66 Analysing ssh traffic on Wireshark Linux-UbuntuVM on Powershell using ssh - WindowsVM" src="https://github.com/user-attachments/assets/8d9d220c-59f2-4092-ae8c-2670af8684f6" />
 >
 <br>
 <br>
 
-**Step 67: Verifying the authentication handshake packets as the secure SSH session is established 
+**Step 67: Verifying the authentication handshake packets as the secure SSH session is established.**
 <br>
 <img width="1366" height="768" alt="67 Analysing ssh traffic on Wireshark   confirming to log in Linux-UbuntuVM on Powershell using ssh - WindowsVM" src="https://github.com/user-attachments/assets/31e30ffd-d3db-47b5-b76d-ab84b882f958" />
 >
 <br>
 <br>
 
-**Step 68: Confirming the authenticated session is established and the remote command prompt is active to log in to Linux VM
+**Step 68: Confirming the authenticated session is established and the remote command prompt is active to log in to Linux VM.**
 <br>
 <img width="1366" height="768" alt="68 Successfull log in Linux-UbuntuVM on Powershell using ssh - WindowsVM" src="https://github.com/user-attachments/assets/6c7d6f00-105c-4428-b20b-7ab19d640bb8" />
 >
 <br>
 <br>
 
-**Step 69: Validating that the remote connection is stable and authenticated for command execution on Linux VM.
+**Step 69: Validating that the remote connection is stable and authenticated for command execution on Linux VM.**
 <br.
 <img width="1366" height="768" alt="69 Login confirmed of Linux-UbuntuVM on Powershell - WindowsVM" src="https://github.com/user-attachments/assets/71d706d0-57ea-4eb6-91ef-e0df385f4c26" />
 >
 <br>
 <br>
 
-**Step 70: Executing the `hostname` command on the remote Linux-UbuntuVM to verify i am utilizing my LInux VM.
+**Step 70: Executing the `hostname` command on the remote Linux-UbuntuVM to verify i am utilizing my LInux VM.**
 <br>
 <img width="1366" height="768" alt="70 Prompting hostname command on Linux-UbuntuVM using powershell - WindowsVM" src="https://github.com/user-attachments/assets/5dbdbd91-ab7e-409d-bbba-a5ad7d0f9bb7" />
 >
 <br>
 <br>
 
-**Step 71: Receiving the correct hostname from the remote system, demonstrating full remote management via SSH.
+**Step 71: Receiving the correct hostname from the remote system, demonstrating full remote management via SSH.**
 <br>
 <img width="1366" height="768" alt="71 Successful hostname promtp Linux-UbuntuVM - WindowsVM" src="https://github.com/user-attachments/assets/dd1ca81e-1e33-4dd0-a0ea-4aa70238da72" />
 >
@@ -524,21 +521,21 @@ This final phase concludes the project by securely terminating the active SSH se
 >
 <br>
 
-**Step 72: Concluding the secure SSH session and closing the terminal to return to the local WindowsVM environment.
+**Step 72: Concluding the secure SSH session and closing the terminal to return to the local WindowsVM environment.**
 <br>
 <img width="1366" height="768" alt="72 Existing Linux-UbuntuVM using Powershell on WindowsVM" src="https://github.com/user-attachments/assets/b7aaf5d5-2ebf-4dad-abdb-6defc4b9644f" />
 >
 <br>
 <br>
 
-**Step 73: Navigating to the Azure resource dashboard to initiate the deletion of the Windows and Linux virtual machine instances.
+**Step 73: Navigating to the Azure resource dashboard to initiate the deletion of the Windows and Linux virtual machine instances.**
 <br>
 <img width="1366" height="768" alt="73 Deleting Virtual Machines Linux   Windows on Azure" src="https://github.com/user-attachments/assets/b84a17bf-db6a-4c34-8acc-c91607a24743" />
 >
 <br>
 <br>
 
-**Step 74: Confirming the successful removal of all provisioned cloud resources to maintain a clean environment and prevent unnecessary costs.
+**Step 74: Confirming the successful removal of all provisioned cloud resources to maintain a clean environment and prevent unnecessary costs.**
 <br>
 <img width="1366" height="768" alt="74 Succesful Deletion of Virtual Machines Linux   Windows on Azure" src="https://github.com/user-attachments/assets/b5e29c8c-1323-4e5b-a885-5f58866f20b7" />
 >
