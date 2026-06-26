@@ -202,6 +202,7 @@ In this 19 steps phase , I utilized the Windows PowerShell environment to perfor
 <img width="1366" height="768" alt="27 Prompting ipconfig all command on Windows Powershell in WindowsVM" src="https://github.com/user-attachments/assets/ea03dbcc-6a17-4186-9439-0d4b094f733d" />
 >
 <br>
+<br>
 
 **Step 28: Reviewing the detailed PowerShell report to confirm network adapter status and DNS server configuration.**
 <br>
