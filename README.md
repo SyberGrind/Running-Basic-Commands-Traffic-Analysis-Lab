@@ -1,4 +1,5 @@
-<img width="547" height="365" alt="WhatsApp Image 2026-06-25 at 00 31 (3)" src="https://github.com/user-attachments/assets/33ef405e-fd59-4eee-afed-357efe33e4f7" />
+<img width="1536" height="1024" alt="WhatsApp Image 2026-06-27 at 10 00 57" src="https://github.com/user-attachments/assets/e40e3762-a705-4bed-865c-4a4f1fa09932" />
+
 
 ----
 # Running Basic Powetshell Commands & Traffic Analysis Lab
