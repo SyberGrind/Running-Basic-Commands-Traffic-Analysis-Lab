@@ -2,7 +2,7 @@
 
 
 ----
-# Running Basic Powetshell Commands & Traffic Analysis Lab
+# Running Basic Powershell Commands & Traffic Analysis Lab
 This repository documents a comprehensive hands-on lab focused on cloud infrastructure provisioning, Windows systems administration, and network traffic analysis. The project begins with deploying a unified cloud environment in Microsoft Azure, consisting of Windows and Linux virtual machines within a single virtual network. Building on this infrastructure, the lab explores practical network administration using Windows PowerShell commands and culminates in deep-packet analysis using Wireshark, specifically targeting ICMP and SSH protocols to observe network behavior.
 >
 <br>
