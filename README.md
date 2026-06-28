@@ -8,7 +8,7 @@ This repository documents a comprehensive hands-on lab focused on cloud infrastr
 <br>
 
 ----
-### 🔹 Phase 1: Resource Group Initialization, Virtual Machine Provisioning (Windows & Linux) & Secure Remote Access,this covers the first 22 Steps.
+## 🔹 Phase 1: Resource Group Initialization, Virtual Machine Provisioning (Windows & Linux) & Secure Remote Access,this covers the first 22 Steps.
 ----
 >
 <br>
