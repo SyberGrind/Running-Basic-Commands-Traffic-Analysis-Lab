@@ -8,6 +8,7 @@ This repository documents a comprehensive hands-on lab focused on cloud infrastr
 <br>
 
 📌 Project Overview
+
 This project demonstrates the deployment of a Microsoft Azure cloud environment consisting of Windows and Linux virtual machines for systems administration and network traffic analysis. Throughout the lab, I provisioned cloud infrastructure, executed essential Windows PowerShell networking commands, and analyzed ICMP and SSH traffic using Wireshark to better understand how devices communicate across a network. This project simulates many of the networking and troubleshooting responsibilities performed by IT Support Technicians, Help Desk Analysts, and Junior System Administrators.
 >
 <br>
